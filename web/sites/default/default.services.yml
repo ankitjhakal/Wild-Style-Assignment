@@ -92,7 +92,7 @@ parameters:
     #
     # Disabling the Twig cache is not recommended in production environments.
     # @default true
-    cache: true
+    cache: false
   renderer.config:
     # Renderer required cache contexts:
     #

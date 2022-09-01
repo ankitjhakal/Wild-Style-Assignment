@@ -4,10 +4,12 @@ status: true
 dependencies:
   config:
     - filter.format.restricted_html
+    - rest.resource.currency_converter_api
   module:
     - comment
     - contact
     - filter
+    - rest
     - search
     - system
 _core:
@@ -20,5 +22,6 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'restful get currency_converter_api'
   - 'search content'
   - 'use text format restricted_html'
