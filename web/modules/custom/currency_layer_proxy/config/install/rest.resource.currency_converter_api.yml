@@ -1,0 +1,17 @@
+uuid: 9ab75498-807f-429e-a34b-d2e249485d9f
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - serialization
+id: currency_converter_api
+plugin_id: currency_converter_api
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - basic_auth
